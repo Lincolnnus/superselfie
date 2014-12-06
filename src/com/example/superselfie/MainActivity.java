@@ -24,6 +24,7 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
         Button btn = (Button) findViewById(R.id.btn_custom_view);
+
         btn.setOnClickListener(new OnClickListener() {
                                    @Override
                                    public void onClick(View v) {
@@ -45,6 +46,8 @@ public class MainActivity extends Activity {
 
         FrameLayout preview = (FrameLayout) findViewById(R.id.camera_preview);
         preview.addView(cameraLogic.getPreview());
+
+        System.out.println("Created");
 
         // Button captureButton = (Button) findViewById(R.id.button_capture);
         // captureButton.setOnClickListener(cameraLogic.onClickListener);
