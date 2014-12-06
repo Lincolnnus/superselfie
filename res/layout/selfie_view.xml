@@ -4,11 +4,11 @@
               android:layout_height="fill_parent"
               android:orientation="vertical" >
 
-    <EditText
+    <TextView
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_margin="5dip"
-            android:text="Image View" />
+            android:text="Super Selfie View" />
 
     <ImageView
             android:id="@+id/selfie_image_view"
