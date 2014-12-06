@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="library">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Sites/Yota_SDK/yoda/yotaphone_titanium_sdk/library/com.yotadevices.yotaphone2.sdk.jar!/" />
+      <root url="jar://$USER_HOME$/Sites/Yota_SDK/yoda/yotaphone_titanium_sdk/library/android.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

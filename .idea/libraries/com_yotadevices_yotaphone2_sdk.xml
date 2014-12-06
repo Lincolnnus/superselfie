@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="com.yotadevices.yotaphone2.sdk">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Sites/Yota_SDK/yoda/yotaphone_titanium_sdk/library/com.yotadevices.yotaphone2.sdk.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

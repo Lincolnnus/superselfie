@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/superselfie.iml" filepath="$PROJECT_DIR$/superselfie.iml" />
+      <module fileurl="file://$USER_HOME$/Sites/Yota_SDK/yoda/yotaphone_titanium_sdk/yotaphone_titanium_sdk.iml" filepath="$USER_HOME$/Sites/Yota_SDK/yoda/yotaphone_titanium_sdk/yotaphone_titanium_sdk.iml" />
+    </modules>
+  </component>
+</project>
