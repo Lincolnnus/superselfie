@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:orientation="vertical"
-              android:layout_width="fill_parent"
-              android:layout_height="fill_parent"
-        >
-    <TextView
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:text="Hello, Take a super selfie here!"
-            />
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
     <LinearLayout
             android:orientation="horizontal"
             android:layout_width="fill_parent"
@@ -53,9 +49,9 @@
         <ImageView android:layout_width="0dp" android:layout_height="wrap_content"
                    android:layout_weight="1"
                    android:id="@+id/imageView10"/>
-        <FrameLayout android:layout_width="0dp" android:layout_height="wrap_content"
-                     android:layout_weight="1"
-                     android:id="@+id/camera_preview"/>
+        <ImageView android:layout_width="0dp" android:layout_height="wrap_content"
+                   android:layout_weight="1"
+                   android:id="@+id/imageView11"/>
         <ImageView android:layout_width="0dp" android:layout_height="wrap_content"
                    android:layout_weight="1"
                    android:id="@+id/imageView12"/>
@@ -76,11 +72,4 @@
                    android:layout_weight="1"
                    android:id="@+id/imageView16"/>
     </LinearLayout>
-    <Button
-            android:id="@+id/btn_custom_view"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="@dimen/button_margin"
-            android:text="@string/main_btn_custom_view" />
 </LinearLayout>
-

@@ -3,6 +3,11 @@
           package="com.example.superselfie"
           android:versionCode="1"
           android:versionName="1.0">
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
     <!-- Permission for working with backscreen -->
     <uses-permission android:name="com.yotadevices.framework.permission.ACCESS_BACKSCREEN" />
     <uses-sdk android:minSdkVersion="19"/>

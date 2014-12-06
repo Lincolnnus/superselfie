@@ -10,7 +10,7 @@
             android:layout_margin="5dip"
             android:text="Super Selfie View" />
 
-    <ImageView
+    <View
             android:id="@+id/selfie_image_view"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"

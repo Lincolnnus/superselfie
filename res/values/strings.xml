@@ -2,4 +2,5 @@
 <resources>
     <string name="app_name">superselfie</string>
     <string name="main_btn_custom_view">Preview</string>
+    <string name="Capture">Capture</string>
 </resources>
