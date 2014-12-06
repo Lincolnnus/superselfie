@@ -7,7 +7,13 @@
     <TextView
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:text="Hello World, MyActivity"
+            android:text="Hello, Take a super selfie here!"
             />
+    <Button
+            android:id="@+id/btn_custom_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/button_margin"
+            android:text="@string/main_btn_custom_view" />
 </LinearLayout>
 

@@ -1,5 +1,6 @@
 package com.example.superselfie;
 
+import android.view.View;
 import com.yotadevices.sdk.BSActivity;
 
 /**
@@ -7,9 +8,9 @@ import com.yotadevices.sdk.BSActivity;
  */
 public class BackScreenActivity extends BSActivity {
 
-        @Override
-        protected void onBSCreate() {
-            super.onBSCreate();
-            setBSContentView(R.layout.main);
-        }
+    protected void onBSCreate() {
+        super.onBSCreate();
+        View v = getBSDrawer().getBSLayoutInflater().inflate(R.layout.selfie_view, null);
+        setBSContentView(v);
+    }
 }
